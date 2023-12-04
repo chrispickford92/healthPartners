@@ -1,4 +1,4 @@
-import { byClass, bydatacomponenttype } from "../../support/helpers.js";
+import { byClass } from "../../support/helpers.js";
 
 
 // Define a class for Amazon homepage interactions

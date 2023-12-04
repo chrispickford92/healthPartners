@@ -29,7 +29,7 @@ Cypress.Commands.add("checkAndAcceptInsurance", () => {
       } else {
         // If the insurance text does not exist, log a message (optional)
         cy.log("Insurance text not found. Moving on.");
-        // Add your additional actions here for when there's no insurance text
+        
       }
     });
 });
@@ -50,7 +50,7 @@ Cypress.Commands.add("checkAndAcceptCare", () => {
       } else {
         // If the insurance text does not exist, log a message (optional)
         cy.log("Insurance text not found. Moving on.");
-        // Add your additional actions here for when there's no insurance text
+        
       }
     });
 });
